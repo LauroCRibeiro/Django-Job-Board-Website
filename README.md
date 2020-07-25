@@ -1,4 +1,4 @@
-# Django-Job-Board-Website
+# Django-Job-Portal-Website
 
 === Employee Panel ===
  * Register

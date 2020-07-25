@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load widget_tweaks %}
+{% block title%}Public Profile{% endblock %}
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-3">
+                <h5>{{emp.full_name}} <small>({{emp.job_title}})</small></h5>
+                <h6 class="text-muted">{{emp.contact_no}}</h6>
+                <h6 class="text-muted">{{emp.email}}</h6>
+                <h6 class="text-muted">{{emp.address}}</h6>
+            </div>
+        </div>
+        <hr/>
+        <p class="text-muted">{{emp.detail|safe}}</p>
+    </div>
+</div>
+{% endblock %}

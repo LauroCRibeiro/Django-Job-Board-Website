@@ -8,6 +8,8 @@
  * View applied for jobs
  * View recommended jobs
  * View Company Profile
+
+
 === Company Panel === 
  * Register
  * Login/Logout
